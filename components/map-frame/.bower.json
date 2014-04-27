@@ -1,0 +1,18 @@
+{
+  "name": "map-frame",
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.2.3",
+    "google-map": "PolymerLabs/google-map#~0.2.3"
+  },
+  "homepage": "https://github.com/robdodson/map-frame",
+  "_release": "d9a5fc9b50",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "d9a5fc9b50dabe2e8b535514c962e2780723c64c"
+  },
+  "_source": "git://github.com/robdodson/map-frame.git",
+  "_target": "master",
+  "_originalSource": "robdodson/map-frame",
+  "_direct": true
+}
