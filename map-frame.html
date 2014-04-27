@@ -1,0 +1,63 @@
+<link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="../google-map/google-map.html">
+
+<!--
+A really sweet frame for google maps
+
+##### Example
+
+    <map-frame></map-frame>
+
+@element map-frame
+@blurb Element providing solution to no problem in particular.
+@status alpha
+@url github.io
+-->
+<polymer-element name="map-frame" attributes="notitle">
+
+  <template>
+
+    <link href="map-frame.css" rel="stylesheet" />
+    
+    <div class="frame">
+      <google-map></google-map>
+    </div>
+
+  </template>
+
+  <script>
+
+    Polymer({
+      /**
+       * The `noevent` event is not actually fired from here,
+       * we document it as an example of documenting events.
+       * 
+       * @event noevent
+       */
+
+      /**
+       * The `notitle` attribute does not yet have a purpose.
+       * 
+       * @attribute notitle
+       * @type string
+       */
+      notitle: '',
+
+      ready: function() {
+      },
+
+      /**
+       * The `task` method does no work at this time.
+       * 
+       * @method task
+       * @return {Object} Returns undefined.
+       * @param {String} dummy Serves no purpose today.
+       */
+      task: function(dummy) {
+      }
+
+    });
+
+  </script>
+
+</polymer-element>
